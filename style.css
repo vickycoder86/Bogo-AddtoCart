@@ -1,0 +1,136 @@
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -2px;
+  color: #ff6b82;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+  margin-top: 10px;
+  width: 85px;
+  height: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.offer-box {
+  margin: auto;
+  width: 341px;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: -20px;
+}
+
+.offer {
+  border: 2px solid gray;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  position: relative;
+  padding-top: 30px;
+}
+.popular {
+  border: 2px solid gray;
+}
+.tag {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background: #ff3366;
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+.discount {
+  background: #ff3366;
+  color: white;
+  padding: 3px 6px;
+  margin-left: 5px;
+}
+.discount-box3 {
+  background: #ff3366;
+  color: white;
+  padding: 6px 6px;
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+  margin-left: 120px;
+}
+.old-price-restbox {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+  margin-left: 235px;
+}
+.options {
+  display: flex;
+
+  /* justify-content: center; */
+  gap: 10px;
+  margin-top: 5px;
+}
+select {
+  padding: 5px;
+  width: 65px;
+  height: 25px;
+
+  border: 1px solid gray;
+}
+.delivery {
+  font-size: 14px;
+  color: #ff6b82;
+  font-weight: 400;
+}
+.total {
+  color: black;
+  margin-left: 150px;
+}
+.add-to-cart {
+  background: #ff6b82;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 341px;
+}
+.powered {
+  font-size: 12px;
+  font-weight: 400;
+  color: gray;
+  margin-top: 8px;
+  text-align: end;
+}
+.box-size {
+  margin-left: 27px;
+}
+.box-colour {
+  margin-left: 42px;
+}
+.options > span {
+  margin-top: 5px;
+}
+.standard {
+  margin-top: -60px;
+  margin-left: 25px;
+}
+.main-price {
+  margin-left: 85px;
+}
+.standard-wrapper {
+  margin-top: -15px;
+}
